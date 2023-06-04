@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f7ce082-1f50-4df8-a538-b9cfbc35f21c">
+  <producedTypes>
+    <refType typeId="4c1e4411-e0a2-4cc0-8011-1d0ebce028c7" valueTypeId="9888ee0a-542f-49a9-b657-3fe7ba9bad0e"/>
+    <listType typeId="cd2785b2-b35d-497e-a80f-cc667918304f" valueTypeId="9c6f455f-fd9b-4bb4-a4c3-c991e95bedc8"/>
+    <managerType typeId="f2b2ba44-b6bf-4164-8654-849ba948d3b2" valueTypeId="63223181-2b76-4c6a-abda-c2e95ac4a64c"/>
+  </producedTypes>
+  <name>UMC_ВариантыИспользованияПодключенияКUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты использования подключения к Umico</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2e20ad61-b75d-43c6-82dd-eb306fc016a5">
+    <name>ДляРозничныхПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для розничных продаж</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8dd676a7-4b19-414c-9a6b-a170b09d887b">
+    <name>ДляОптовыхПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для оптовых продаж</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

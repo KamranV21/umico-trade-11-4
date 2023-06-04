@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07d52faa-2623-49c3-84b5-8e32556d001d">
+  <name>UMC_Umcio</name>
+  <synonym>
+    <key>ru</key>
+    <value>Umcio</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.UMC_РазделUmico</picture>
+  </picture>
+  <subsystems>UMC_Администрирование</subsystems>
+</mdclass:Subsystem>

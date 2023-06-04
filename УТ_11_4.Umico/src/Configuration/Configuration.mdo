@@ -46,5 +46,18 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.UMC_Umcio</subsystems>
+  <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
   <roles>Role.UMC_ОсновнаяРоль</roles>
+  <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
+  <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
+  <catalogs>Catalog.КассыККМ</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <documents>Document.ВозвратТоваровОтКлиента</documents>
+  <documents>Document.РеализацияТоваровУслуг</documents>
+  <documents>Document.РеализацияУслугПрочихАктивов</documents>
+  <documents>Document.ЧекККМ</documents>
+  <documents>Document.ЧекККМВозврат</documents>
+  <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
+  <informationRegisters>InformationRegister.UMC_ИдентификаторыЧековUmico</informationRegisters>
 </mdclass:Configuration>

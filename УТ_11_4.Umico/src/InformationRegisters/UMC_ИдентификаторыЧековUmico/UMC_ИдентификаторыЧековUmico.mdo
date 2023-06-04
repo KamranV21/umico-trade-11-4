@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e681ab7-c3fd-4a00-bd86-874dd099df42">
+  <producedTypes>
+    <selectionType typeId="ab593255-fb4b-43fd-927d-51f3659b1248" valueTypeId="94951b4b-2d16-41a0-8e12-4301f7351ede"/>
+    <listType typeId="dd6c2643-dfe5-4929-9035-169c45924088" valueTypeId="34ff2943-0457-4143-86e2-201ddfe387a5"/>
+    <managerType typeId="1b87a5ef-0243-404c-81d1-e89ea8332706" valueTypeId="6ff59951-4dd2-48aa-a41d-f9bd6e1da6e3"/>
+    <recordSetType typeId="21bc0547-2cba-4022-8c67-db81be88b9c9" valueTypeId="cc3ff140-b280-417b-8b10-83e63ca2a582"/>
+    <recordKeyType typeId="b85213f7-6a6a-45ce-b57b-1f752686fd5b" valueTypeId="68599550-71a0-44a1-b2c9-7fc6fbf0e3fc"/>
+    <recordType typeId="7d3c00e9-f93c-4c57-b9f4-fdc23ebb14c1" valueTypeId="4b20385f-ebb5-42b1-b442-4ca9a56f311f"/>
+    <recordManagerType typeId="1f3b8e8d-e779-4d36-86fb-dd7d2af44607" valueTypeId="766f8d3f-86e0-4115-94f8-ce37e589ca78"/>
+  </producedTypes>
+  <name>UMC_ИдентификаторыЧековUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы чеков Umico</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Идентификатор чека Umico</value>
+  </recordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Идентификаторы чеков Umico</value>
+  </listPresentation>
+  <resources uuid="150dc4ac-5101-4c5d-b87a-a4c3080f3608">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70effa4c-0e7e-41b1-be17-6504db996303">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="7948b88f-2c4d-48cb-b218-6f293140b21b">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.РеализацияУслугПрочихАктивов</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ЧекККМВозврат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

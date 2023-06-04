@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fc93f88-8e7a-4ec2-a98f-4719636a306c">
+  <name>UMC_РазделUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел Umico</value>
+  </synonym>
+</mdclass:CommonPicture>
