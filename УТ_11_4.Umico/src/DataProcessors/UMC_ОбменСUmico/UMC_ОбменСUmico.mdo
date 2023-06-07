@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="596595d2-e3c6-452a-9209-2df0a08aff80">
+  <producedTypes>
+    <objectType typeId="6a456511-e26a-4ac8-8937-1df64115d2c8" valueTypeId="4300abdc-37a6-455d-9206-b9316999ddf3"/>
+    <managerType typeId="e7ecaaa9-1825-4d74-ab32-8197204eb173" valueTypeId="2621f4bd-d7cc-4f99-b2dd-be03d212702a"/>
+  </producedTypes>
+  <name>UMC_ОбменСUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Umico</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="953ad8f6-15f5-475a-88b0-247029e8c4d1">
+    <name>APIKey</name>
+    <synonym>
+      <key>ru</key>
+      <value>API key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

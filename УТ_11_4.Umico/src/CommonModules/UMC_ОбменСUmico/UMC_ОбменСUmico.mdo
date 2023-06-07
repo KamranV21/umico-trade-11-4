@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b904e39-97b9-4abf-856d-e2ec7f06b469">
+  <name>UMC_ОбменСUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Umico</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

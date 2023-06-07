@@ -49,6 +49,7 @@
   <subsystems>Subsystem.UMC_Umcio</subsystems>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
   <roles>Role.UMC_ОсновнаяРоль</roles>
+  <commonModules>CommonModule.UMC_ОбменСUmico</commonModules>
   <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
   <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
@@ -59,5 +60,6 @@
   <documents>Document.ЧекККМ</documents>
   <documents>Document.ЧекККМВозврат</documents>
   <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
+  <dataProcessors>DataProcessor.UMC_ОбменСUmico</dataProcessors>
   <informationRegisters>InformationRegister.UMC_ИдентификаторыЧековUmico</informationRegisters>
 </mdclass:Configuration>
