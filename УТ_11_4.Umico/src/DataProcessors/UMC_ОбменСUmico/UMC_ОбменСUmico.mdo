@@ -10,6 +10,7 @@
     <value>Обмен с Umico</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.UMC_ОбменСUmico.Form.БалансПоСчету</defaultForm>
   <attributes uuid="953ad8f6-15f5-475a-88b0-247029e8c4d1">
     <name>APIKey</name>
     <synonym>
@@ -25,4 +26,37 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="6fd77471-2d98-45b8-adfa-ca9a9903f6f0">
+    <name>ВариантИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант использования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.UMC_ВариантыИспользованияПодключенияКUmico</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf917ef6-e56c-4fa2-b1d8-9bd53f5941e5">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КассыККМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="918625b5-dc6d-44a2-9cc0-d1dc7e4e6a72">
+    <name>БалансПоСчету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баланс по счету</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>

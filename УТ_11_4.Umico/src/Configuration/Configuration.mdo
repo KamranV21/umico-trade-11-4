@@ -47,6 +47,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.UMC_Umcio</subsystems>
+  <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
   <roles>Role.UMC_ОсновнаяРоль</roles>
   <commonModules>CommonModule.UMC_ОбменСUmico</commonModules>
