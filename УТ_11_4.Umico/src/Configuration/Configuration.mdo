@@ -47,14 +47,37 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.UMC_Umcio</subsystems>
+  <styleItems>StyleItem.ИндивидуальнаяЦена</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Набор</commonPictures>
+  <commonPictures>CommonPicture.Наборы</commonPictures>
+  <commonPictures>CommonPicture.НаписатьSMS</commonPictures>
+  <commonPictures>CommonPicture.РМК_Стереть</commonPictures>
+  <commonPictures>CommonPicture.РМК_ТочкаКалькулятора</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра0</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра1</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра2</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра3</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра4</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра5</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра6</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра7</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра8</commonPictures>
+  <commonPictures>CommonPicture.РМК_Цифра9</commonPictures>
+  <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
+  <commonPictures>CommonPicture.СообщениеВТехПоддержку</commonPictures>
+  <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
   <roles>Role.UMC_ОсновнаяРоль</roles>
   <commonModules>CommonModule.UMC_ОбменСUmico</commonModules>
+  <commonModules>CommonModule.UMC_ОбменСUmicoВызовСервера</commonModules>
+  <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
   <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <documents>Document.ВозвратТоваровОтКлиента</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.РеализацияУслугПрочихАктивов</documents>

@@ -38,9 +38,9 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>Label</type>
-    <width>42</width>
     <autoMaxWidth>true</autoMaxWidth>
-    <autoMaxHeight>true</autoMaxHeight>
+    <height>2</height>
+    <horizontalStretch>true</horizontalStretch>
     <textColor xsi:type="core:ColorRef">
       <color>Style.ТекстИнформационнойНадписи</color>
     </textColor>
@@ -110,7 +110,6 @@
           <mask>999 9999 9999</mask>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
-          <textEdit>true</textEdit>
           <font xsi:type="core:FontDef">
             <height>16.0</height>
             <bold>true</bold>
@@ -1635,7 +1634,6 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1980,6 +1978,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОК</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>

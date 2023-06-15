@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="736ddd12-5b45-4f86-b58c-e9d230aab1cb" extendedConfigurationObject="c285371e-3f47-40b7-ae0f-80022d7c7f9a">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="736ddd12-5b45-4f86-b58c-e9d230aab1cb" extendedConfigurationObject="c285371e-3f47-40b7-ae0f-80022d7c7f9a">
   <producedTypes>
     <objectType typeId="88f91d49-9e47-48d1-89a3-2c0dfdc0febb" valueTypeId="04d17ee0-9b1b-4eb6-bede-1ba7afbad17a"/>
     <refType typeId="17efb943-8174-4da8-8903-e5ca022c8f7b" valueTypeId="52a3aedf-5b77-48ec-ad3c-2ae669cff0ae"/>
@@ -12,4 +12,57 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="31ab8824-26d4-4850-a246-19be87eadb42">
+    <name>UMC_ОплаченноБалламиUmico</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплачено баллами Umico</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08ed5982-7c5b-4e7c-a3da-e0680ef20066">
+    <name>UMC_НомерСчетаUmico</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер счета Umico</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="657425e8-b694-41c7-98d0-53d474f2265f" extendedConfigurationObject="679b8da0-2374-41fa-b7bc-d4f541de8618">
+    <name>ФормаДокументаРМК</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="dbca372f-49b5-4174-b582-057809e6888f" extendedConfigurationObject="e524e4fc-bda6-417c-aa4b-e33b13ec7856">
+    <name>ФормаСмешаннойОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
 </mdclass:Document>

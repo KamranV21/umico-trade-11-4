@@ -10,7 +10,7 @@
     <value>Обмен с Umico</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.UMC_ОбменСUmico.Form.БалансПоСчету</defaultForm>
+  <defaultForm>DataProcessor.UMC_ОбменСUmico.Form.ВводСчетаUmcio</defaultForm>
   <attributes uuid="953ad8f6-15f5-475a-88b0-247029e8c4d1">
     <name>APIKey</name>
     <synonym>
@@ -51,10 +51,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <forms uuid="918625b5-dc6d-44a2-9cc0-d1dc7e4e6a72">
-    <name>БалансПоСчету</name>
+    <name>ВводСчетаUmcio</name>
     <synonym>
       <key>ru</key>
-      <value>Баланс по счету</value>
+      <value>Ввод счета umcio</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

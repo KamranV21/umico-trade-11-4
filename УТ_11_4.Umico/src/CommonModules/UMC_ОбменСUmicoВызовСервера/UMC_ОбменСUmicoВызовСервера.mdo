@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="676ef11d-56d2-47d1-9cc8-009a70552483">
+  <name>UMC_ОбменСUmicoВызовСервера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с Umico вызов сервера</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>
