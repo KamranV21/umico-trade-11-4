@@ -54,6 +54,7 @@
   <commonPictures>CommonPicture.Набор</commonPictures>
   <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.НаписатьSMS</commonPictures>
+  <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.РМК_Стереть</commonPictures>
   <commonPictures>CommonPicture.РМК_ТочкаКалькулятора</commonPictures>
   <commonPictures>CommonPicture.РМК_Цифра0</commonPictures>
@@ -72,18 +73,40 @@
   <roles>Role.UMC_ОсновнаяРоль</roles>
   <commonModules>CommonModule.UMC_ОбменСUmico</commonModules>
   <commonModules>CommonModule.UMC_ОбменСUmicoВызовСервера</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
+  <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <constants>Constant.ИспользоватьНаборы</constants>
   <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
   <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
+  <catalogs>Catalog.БонусныеПрограммыЛояльности</catalogs>
+  <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.КартыЛояльности</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
+  <catalogs>Catalog.КлассификаторАлкогольнойПродукцииЕГАИС</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ПодарочныеСертификаты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СкладскиеПомещения</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Справки2ЕГАИС</catalogs>
+  <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
+  <catalogs>Catalog.ШтрихкодыУпаковокТоваров</catalogs>
+  <catalogs>Catalog.ЭквайринговыеТерминалы</catalogs>
   <documents>Document.ВозвратТоваровОтКлиента</documents>
+  <documents>Document.КассоваяСмена</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.РеализацияУслугПрочихАктивов</documents>
   <documents>Document.ЧекККМ</documents>
   <documents>Document.ЧекККМВозврат</documents>
   <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
+  <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СтатусыЧековККМ</enums>
+  <enums>Enum.ТипыНалогообложенияНДС</enums>
+  <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ФормыОплаты</enums>
   <dataProcessors>DataProcessor.UMC_ОбменСUmico</dataProcessors>
   <informationRegisters>InformationRegister.UMC_ИдентификаторыЧековUmico</informationRegisters>
 </mdclass:Configuration>

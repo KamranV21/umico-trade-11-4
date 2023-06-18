@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="437b87ae-2998-42ec-9811-163e2b586633" extendedConfigurationObject="6573c190-3da4-40db-bb97-5f160948f7cc">
+  <producedTypes>
+    <objectType typeId="7381bd09-bfc8-4d7d-b153-9b2e255fde2d" valueTypeId="8fe2259a-7e18-4c2b-b9ca-756e2e8e7554"/>
+    <refType typeId="0758c5a1-ee9e-4c0b-925f-6faa3ecace74" valueTypeId="2496e005-ee64-41fd-a4db-1a61dda2e2c5"/>
+    <selectionType typeId="a7128c4b-a4c3-4c15-89f1-b9c65470d9d1" valueTypeId="6708633d-7b16-4106-9285-ba798f05c307"/>
+    <listType typeId="d9cf8fde-8d04-45a9-83e7-e2628877dbf4" valueTypeId="bcef0a98-ddc5-4736-8079-36862cfdab91"/>
+    <managerType typeId="eb6dba0e-6288-46dc-90fb-6238d9551813" valueTypeId="515661d9-3d39-47fa-9ff4-8afe667db685"/>
+  </producedTypes>
+  <name>ПодарочныеСертификаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>
