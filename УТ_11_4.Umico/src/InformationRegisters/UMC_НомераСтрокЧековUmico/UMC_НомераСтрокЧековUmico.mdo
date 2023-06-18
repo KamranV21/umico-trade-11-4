@@ -17,6 +17,10 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Номер строки чека Umico</value>
+  </recordPresentation>
   <resources uuid="b25764e3-9ace-4988-bcf8-d231191b2deb">
     <name>ПорядковыйНомер</name>
     <synonym>

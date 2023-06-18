@@ -23,4 +23,53 @@
       <types>DocumentRef.ЧекККМ</types>
     </type>
   </attributes>
+  <tabularSections uuid="7033b78c-c145-48ad-b282-bceafb27d120" extendedConfigurationObject="e1b9633d-4d9f-451b-acee-56fc670affb3">
+    <producedTypes>
+      <objectType typeId="327d57ee-6a5c-47d7-b25d-9bd2d0ea159b" valueTypeId="0303c2df-9fbd-47cc-a82c-72ba3411194f"/>
+      <rowType typeId="51b9b8c0-8132-41ae-849c-0bd622dd7754" valueTypeId="83dbe774-549f-49fb-9219-71dcfa1d4265"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="206902a9-d98f-42c3-8179-04c7bd517c32" extendedConfigurationObject="7fcf83b9-397f-4e74-9332-c4f28a1c93aa">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </attributes>
+    <attributes uuid="9a2a842a-88c5-4ad3-848f-698855eb7e4e" extendedConfigurationObject="b86d15a2-a07b-4e36-887b-9e1df1f11ff6">
+      <name>КоличествоУпаковок</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+    </attributes>
+    <attributes uuid="67511e50-0b53-40bc-8a2b-41d4458452fc" extendedConfigurationObject="cecdc85d-e5ea-4ec7-891a-7129fd0b769f">
+      <name>Сумма</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <type>Checked</type>
+      </extension>
+      <type>
+        <types>DefinedType.ДенежнаяСуммаНеотрицательная</types>
+      </type>
+    </attributes>
+  </tabularSections>
 </mdclass:Document>
