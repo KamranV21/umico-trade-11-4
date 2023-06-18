@@ -56,4 +56,15 @@
       <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
     </type>
   </attributes>
+  <attributes uuid="ce66db54-f55d-41a1-b338-53c7c6b8e0e9" extendedConfigurationObject="09a12ed1-441d-49a8-9f36-2093735e8d37">
+    <name>ВидНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+  </attributes>
 </mdclass:Catalog>

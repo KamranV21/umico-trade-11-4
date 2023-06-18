@@ -12,4 +12,15 @@
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <attributes uuid="c51f8d0f-0dd6-4229-8fb1-c2d10f0f3a76" extendedConfigurationObject="11462406-65c5-4b89-a31f-928ff51b2b54">
+    <name>ЧекККМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DocumentRef.ЧекККМ</types>
+    </type>
+  </attributes>
 </mdclass:Document>

@@ -80,6 +80,7 @@
   <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
   <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
   <catalogs>Catalog.БонусныеПрограммыЛояльности</catalogs>
+  <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.КартыЛояльности</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
@@ -109,4 +110,5 @@
   <enums>Enum.ФормыОплаты</enums>
   <dataProcessors>DataProcessor.UMC_ОбменСUmico</dataProcessors>
   <informationRegisters>InformationRegister.UMC_ИдентификаторыЧековUmico</informationRegisters>
+  <informationRegisters>InformationRegister.UMC_НомераСтрокЧековUmico</informationRegisters>
 </mdclass:Configuration>

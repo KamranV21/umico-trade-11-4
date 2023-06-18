@@ -26,6 +26,22 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="9ded9094-fe00-4f94-bd5c-18e4d7086a08">
+    <name>POSID</name>
+    <synonym>
+      <key>ru</key>
+      <value>POS ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
   <attributes uuid="6fd77471-2d98-45b8-adfa-ca9a9903f6f0">
     <name>ВариантИспользования</name>
     <synonym>

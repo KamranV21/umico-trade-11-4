@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b387ad7c-5fde-4a62-857b-027ff2d4b8f5">
+  <producedTypes>
+    <selectionType typeId="1fabbc97-d682-4433-bab5-4c34e76140c7" valueTypeId="b7a39359-1262-4624-a71d-c32ea24ece04"/>
+    <listType typeId="2bf60665-3cd3-434e-b0b2-81c76b5c8f94" valueTypeId="62a05238-481e-471a-aec3-ad19a7723393"/>
+    <managerType typeId="d01866d6-fced-4626-a07d-6815aa0360a6" valueTypeId="e4200352-80ab-425c-86d3-e0d20e14236d"/>
+    <recordSetType typeId="6fb94921-46ea-46f4-a309-3abf4c8cad96" valueTypeId="8e79105c-3d39-40c9-bd07-b841827201f2"/>
+    <recordKeyType typeId="ca47bae5-c5a7-46af-a857-4186f54718f4" valueTypeId="17ea6222-f51e-4e28-8d87-288d865f3732"/>
+    <recordType typeId="b170b567-6e41-47fc-8ee1-d1743cb106a5" valueTypeId="f4cd2594-577a-47a7-affa-f2cdf6121afa"/>
+    <recordManagerType typeId="8c81080d-3772-4074-9b29-371c7f794e86" valueTypeId="ab920a85-2346-4f11-8b9c-fb38115cfcd2"/>
+  </producedTypes>
+  <name>UMC_НомераСтрокЧековUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера строк чеков Umico</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b25764e3-9ace-4988-bcf8-d231191b2deb">
+    <name>ПорядковыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядковый номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c7777448-f183-4909-80fb-b54a7638202f">
+    <name>Документ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4107480b-8bbd-44a8-81d6-608044d5d120">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

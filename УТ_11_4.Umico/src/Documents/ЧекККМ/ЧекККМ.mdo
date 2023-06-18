@@ -171,6 +171,17 @@
       <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
     </type>
   </attributes>
+  <attributes uuid="89774a5d-f2e5-4565-9254-d7705f011c04" extendedConfigurationObject="79a7523a-e83c-4548-8324-59b7514ae676">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>DefinedType.ДенежнаяСуммаЛюбогоЗнака</types>
+    </type>
+  </attributes>
   <forms uuid="657425e8-b694-41c7-98d0-53d474f2265f" extendedConfigurationObject="679b8da0-2374-41fa-b7bc-d4f541de8618">
     <name>ФормаДокументаРМК</name>
     <objectBelonging>Adopted</objectBelonging>
