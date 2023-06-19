@@ -48,6 +48,7 @@
   </languages>
   <subsystems>Subsystem.UMC_Umcio</subsystems>
   <styleItems>StyleItem.ИндивидуальнаяЦена</styleItems>
+  <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
@@ -80,12 +81,14 @@
   <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
   <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
   <catalogs>Catalog.БонусныеПрограммыЛояльности</catalogs>
+  <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
   <catalogs>Catalog.КартыЛояльности</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторАлкогольнойПродукцииЕГАИС</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
   <catalogs>Catalog.ПодарочныеСертификаты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
