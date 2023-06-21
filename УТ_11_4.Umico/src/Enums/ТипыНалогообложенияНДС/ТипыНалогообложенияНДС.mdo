@@ -10,4 +10,32 @@
   <extension xsi:type="mdclassExtension:EnumExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
   </extension>
+  <enumValues uuid="39ea62d3-e595-4022-9c8e-940acfe7cd46" extendedConfigurationObject="507f3953-94e1-46ef-8c8d-0688fd890a1d">
+    <name>ПродажаОблагаетсяНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ad1b27eb-13ca-4439-9e56-7e2ce1e7600c" extendedConfigurationObject="5df46640-a48c-42a3-84ec-3c9f97ce2844">
+    <name>ПродажаНеОблагаетсяНДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8d09484d-94d9-493d-8bc7-7c9c64a73306" extendedConfigurationObject="1270ac55-6965-4dae-b63b-1266cf1cca2a">
+    <name>ПродажаОблагаетсяЕНВД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="c0aff34c-86c6-4a3b-a744-4d85c6b46350" extendedConfigurationObject="b3c31986-dede-48b5-9cc7-1c35e4fb81f6">
+    <name>ПродажаПоПатенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>

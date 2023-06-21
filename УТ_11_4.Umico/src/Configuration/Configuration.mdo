@@ -51,6 +51,7 @@
   <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
+  <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.Набор</commonPictures>
   <commonPictures>CommonPicture.Наборы</commonPictures>
@@ -74,7 +75,9 @@
   <roles>Role.UMC_ОсновнаяРоль</roles>
   <commonModules>CommonModule.UMC_ОбменСUmico</commonModules>
   <commonModules>CommonModule.UMC_ОбменСUmicoВызовСервера</commonModules>
+  <commonModules>CommonModule.РозничныеПродажи</commonModules>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
+  <definedTypes>DefinedType.Артикул</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
   <constants>Constant.ИспользоватьНаборы</constants>
@@ -89,18 +92,21 @@
   <catalogs>Catalog.КлассификаторАлкогольнойПродукцииЕГАИС</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
+  <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.ПодарочныеСертификаты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
   <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
   <catalogs>Catalog.Справки2ЕГАИС</catalogs>
+  <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ШтрихкодыУпаковокТоваров</catalogs>
   <catalogs>Catalog.ЭквайринговыеТерминалы</catalogs>
   <documents>Document.ВозвратТоваровОтКлиента</documents>
   <documents>Document.КассоваяСмена</documents>
+  <documents>Document.ОтчетОРозничныхПродажах</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.РеализацияУслугПрочихАктивов</documents>
   <documents>Document.ЧекККМ</documents>
@@ -108,6 +114,7 @@
   <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
   <enums>Enum.СтавкиНДС</enums>
   <enums>Enum.СтатусыЧековККМ</enums>
+  <enums>Enum.ТипыКассККМ</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ФормыОплаты</enums>
