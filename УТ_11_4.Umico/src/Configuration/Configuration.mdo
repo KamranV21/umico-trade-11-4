@@ -35,6 +35,8 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.UMC_ОсновнаяРоль</defaultRoles>
+  <vendor>Камран Велиев</vendor>
+  <version>0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <interfaceCompatibilityMode>TaxiEnableVersion8_2</interfaceCompatibilityMode>
   <compatibilityMode>8.3.14</compatibilityMode>
