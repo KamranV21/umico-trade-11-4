@@ -11,6 +11,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
   </extension>
   <attributes uuid="86c15693-3974-4edd-aac4-2a731edd8bbb" extendedConfigurationObject="58404f03-fbc0-482e-92f0-a7bc6b6dc76c">
     <name>КассаККМ</name>
@@ -648,9 +649,10 @@
       <type>
         <types>String</types>
         <stringQualifiers>
-          <length>11</length>
+          <length>13</length>
         </stringQualifiers>
       </type>
+      <mask>999 9999 9999</mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

@@ -40,9 +40,10 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>11</length>
+        <length>13</length>
       </stringQualifiers>
     </type>
+    <mask>999 9999 9999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>

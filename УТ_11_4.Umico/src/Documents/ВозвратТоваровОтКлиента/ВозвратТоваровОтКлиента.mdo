@@ -11,6 +11,7 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:DocumentExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
   </extension>
   <attributes uuid="389fc2f7-5d34-440d-8158-22689df32a20">
     <name>UMC_ОплаченноБалламиUmico</name>
@@ -40,9 +41,10 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>11</length>
+        <length>13</length>
       </stringQualifiers>
     </type>
+    <mask>999 9999 9999</mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -391,6 +393,38 @@
     <type>
       <types>Boolean</types>
     </type>
+  </attributes>
+  <attributes uuid="ec54ec4c-3c4c-4d73-9e47-9167c2c641b6">
+    <name>UMC_ОснованиеВозвратаUmico</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание возврата Umico</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.ЧекККМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>Document.ВозвратТоваровОтКлиента.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Партнер</name>
+      <field>Document.ВозвратТоваровОтКлиента.Attribute.Партнер</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Соглашение</name>
+      <field>Document.ВозвратТоваровОтКлиента.Attribute.Соглашение</field>
+    </choiceParameterLinks>
+    <choiceParameterLinks>
+      <name>Отбор.Контрагент</name>
+      <field>Document.ВозвратТоваровОтКлиента.Attribute.Контрагент</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="dfd40af5-3935-4c16-9960-65779243de49" extendedConfigurationObject="fa49b881-fd89-45b0-8c29-b94bacc19555">
     <name>ФормаДокумента</name>
