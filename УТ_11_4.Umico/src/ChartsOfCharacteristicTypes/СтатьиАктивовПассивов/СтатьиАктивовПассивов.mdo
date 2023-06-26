@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6431a148-3294-45ec-8fb0-ce41b23bd03a" extendedConfigurationObject="cf04f485-5792-4993-80a9-fe14d4b80320">
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f64dad2e-a827-48f6-914b-3afd358237e4" extendedConfigurationObject="cf04f485-5792-4993-80a9-fe14d4b80320">
   <producedTypes>
-    <objectType typeId="59467636-9411-4870-b34b-f6ee87a46c2e" valueTypeId="583582de-4bbf-4261-90de-3117e5116a18"/>
-    <refType typeId="2345d09b-0d3c-483a-9964-56543999443f" valueTypeId="05f3d79d-7a4a-43ab-adc6-5369fe18d056"/>
-    <selectionType typeId="c4631b32-153b-4e45-b251-d90af9fc2072" valueTypeId="3562d443-beb3-48b1-974d-d7135928813d"/>
-    <listType typeId="9cd9d212-b1fd-4b42-b9d0-8344399f983b" valueTypeId="e78a2561-3497-4104-bd70-560a10cd6386"/>
-    <managerType typeId="0096a617-0fda-4486-a0af-c398e416956b" valueTypeId="31b89f4b-047d-42d0-a83d-dc98425f5dc6"/>
-    <containerType typeId="ac34e58d-841a-469d-b862-58ff8bd9a650" valueTypeId="23378a73-3e81-4682-93e2-a7e3e7fbf731"/>
+    <objectType typeId="2b246377-e7ff-45bb-9d76-6d2dbdb1e30a" valueTypeId="da3df5f8-631b-4c7d-bd65-092ba081342c"/>
+    <refType typeId="4848c3f8-fdcd-4b11-a614-31f3a6417427" valueTypeId="03adbb9b-27a6-4d11-982b-b112ac73d172"/>
+    <selectionType typeId="9454061d-b95a-4268-ab55-6048494d7a57" valueTypeId="454b1755-5b8e-4671-92de-c5efaefba133"/>
+    <listType typeId="f119ca5b-3120-4b72-b231-e77104d13071" valueTypeId="4ae08d72-5929-49ef-9762-04515ea37019"/>
+    <managerType typeId="e909708d-ef13-4dc1-8f26-1d5da6e95d6a" valueTypeId="2d05650d-f2d3-4dd9-9c59-24644ee545f3"/>
+    <containerType typeId="a563d476-f4b8-469a-b7d9-7930e6bd6f1e" valueTypeId="cea143bf-25f8-4c9b-843a-619a93342878"/>
   </producedTypes>
   <name>СтатьиАктивовПассивов</name>
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
     <extendedConfigurationObject>Checked</extendedConfigurationObject>
-    <type>Checked</type>
+    <typeExtension/>
   </extension>
-  <type/>
 </mdclass:ChartOfCharacteristicTypes>
