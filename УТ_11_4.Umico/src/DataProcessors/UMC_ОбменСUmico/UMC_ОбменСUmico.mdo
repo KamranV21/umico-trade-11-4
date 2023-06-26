@@ -76,10 +76,40 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <commands uuid="7645f1d1-fbc8-4107-865d-a2be4462c411">
-    <name>ОтправитьДокументВUmico</name>
+    <name>ОтправитьЧекВUmico</name>
     <synonym>
       <key>ru</key>
       <value>Отправить документ в Umico</value>
+    </synonym>
+    <group>CommandGroup.UMC_Umico</group>
+    <commandParameterType>
+      <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ЧекККМВозврат</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="69ac86eb-f8a8-4d25-98f5-12917b2edf34">
+    <name>ОтменитьПередачуЧекаВUmico</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить передачу чека в Umico</value>
+    </synonym>
+    <group>CommandGroup.UMC_Umico</group>
+    <commandParameterType>
+      <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ЧекККМВозврат</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="5db2c58f-95bb-49d2-962e-7b203396d98a">
+    <name>ОбновитьСтатусЧекаВUmico</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получить статус чека</value>
     </synonym>
     <group>CommandGroup.UMC_Umico</group>
     <commandParameterType>
