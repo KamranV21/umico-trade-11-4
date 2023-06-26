@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b2c5bd9b-8848-454e-9978-582a51df69f2" extendedConfigurationObject="0d6d53c9-63ee-44f8-8520-8cb643b1df21">
+  <producedTypes>
+    <refType typeId="1230610a-1f4a-46ac-bcdb-1a5b0fe84ba4" valueTypeId="b2ab09ec-bf44-4256-b485-ae183806b19f"/>
+    <listType typeId="2f91e4eb-70d6-436d-ae38-7b27a5329a36" valueTypeId="55042279-042f-47d9-b711-da9047bfd482"/>
+    <managerType typeId="02261d25-b66b-477c-805f-ba9e8160eb4e" valueTypeId="1b9f5630-e78d-4f2b-8ac4-69cd14fa75cc"/>
+  </producedTypes>
+  <name>ТипыРасчетовСПартнерами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="0d323d02-f271-468a-8bb4-ab60292941b4" extendedConfigurationObject="115f7bfa-174a-4de6-8149-8a0aa21cb6ea">
+    <name>РасчетыСПоставщиком</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="b3639a41-cbd6-402b-b724-c2bca8fedd87" extendedConfigurationObject="2efefc30-c158-4305-8f41-1131dfd4b818">
+    <name>РасчетыСКлиентом</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

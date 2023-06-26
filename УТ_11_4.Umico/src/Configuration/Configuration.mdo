@@ -96,6 +96,8 @@
   <definedTypes>DefinedType.Артикул</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <definedTypes>DefinedType.ОбъектРасчетов</definedTypes>
+  <definedTypes>DefinedType.ОбъектРасчетовСКлиентами</definedTypes>
   <commandGroups>CommandGroup.UMC_Umico</commandGroups>
   <constants>Constant.ИспользоватьЗаказыКлиентов</constants>
   <constants>Constant.ИспользоватьИмпортныеТовары</constants>
@@ -143,6 +145,7 @@
   <documents>Document.ОтчетОРозничныхПродажах</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.РеализацияУслугПрочихАктивов</documents>
+  <documents>Document.СписаниеЗадолженности</documents>
   <documents>Document.ЧекККМ</documents>
   <documents>Document.ЧекККМВозврат</documents>
   <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
@@ -157,10 +160,15 @@
   <enums>Enum.ТипыКассККМ</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
+  <enums>Enum.ТипыРасчетовСПартнерами</enums>
   <enums>Enum.ФормыОплаты</enums>
   <enums>Enum.ХозяйственныеОперации</enums>
   <dataProcessors>DataProcessor.UMC_ОбменСUmico</dataProcessors>
   <dataProcessors>DataProcessor.ПомощникЗачетаОплат</dataProcessors>
   <informationRegisters>InformationRegister.UMC_ИдентификаторыЧековUmico</informationRegisters>
   <informationRegisters>InformationRegister.UMC_НомераСтрокЧековUmico</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.РасчетыСКлиентами</accumulationRegisters>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиДоходов</chartsOfCharacteristicTypes>
+  <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

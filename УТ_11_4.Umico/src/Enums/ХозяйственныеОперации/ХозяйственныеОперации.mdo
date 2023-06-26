@@ -59,4 +59,18 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
+  <enumValues uuid="f60b6af2-29c4-465e-81ff-ecb802066db7" extendedConfigurationObject="733cca42-63ac-4b08-87d9-90abec9c03ec">
+    <name>СписаниеКредиторскойЗадолженности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="8ba5d204-2cae-4beb-aa51-b4a265f54622" extendedConfigurationObject="ae5b97e9-6e3e-40da-af52-695ba210a200">
+    <name>СписаниеДебиторскойЗадолженности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>
