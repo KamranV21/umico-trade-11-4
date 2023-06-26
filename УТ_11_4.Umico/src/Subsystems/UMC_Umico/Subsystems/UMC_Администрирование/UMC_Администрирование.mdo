@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="825eb9be-fa60-4832-b42b-a89518cf6e82">
+  <name>UMC_Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.UMC_ЖурналЗапросовКUmico</content>
+  <content>Catalog.UMC_ПараметрыПодключенияКUmico</content>
+  <content>InformationRegister.UMC_ИдентификаторыЧековUmico</content>
+  <parentSubsystem>Subsystem.UMC_Umico</parentSubsystem>
+</mdclass:Subsystem>

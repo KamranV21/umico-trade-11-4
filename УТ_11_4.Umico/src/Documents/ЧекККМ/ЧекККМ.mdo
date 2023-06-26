@@ -32,10 +32,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="08ed5982-7c5b-4e7c-a3da-e0680ef20066">
-    <name>UMC_НомерСчетаUmico</name>
+    <name>UMC_НомерКартыUmico</name>
     <synonym>
       <key>ru</key>
-      <value>Номер счета Umico</value>
+      <value>Номер карты Umico</value>
     </synonym>
     <type>
       <types>String</types>

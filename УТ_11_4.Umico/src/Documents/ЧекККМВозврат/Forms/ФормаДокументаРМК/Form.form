@@ -456,7 +456,7 @@
     <name>UMC_ИнформацияUmico</name>
     <id>621</id>
     <items xsi:type="form:FormField">
-      <name>UMC_НомерСчетаUmico</name>
+      <name>UMC_НомерКартыUmico</name>
       <id>623</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -464,10 +464,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.UMC_НомерСчетаUmico</segments>
+        <segments>Объект.UMC_НомерКартыUmico</segments>
       </dataPath>
       <extendedTooltip>
-        <name>UMC_НомерСчетаUmicoРасширеннаяПодсказка</name>
+        <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
         <id>625</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -482,7 +482,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>UMC_НомерСчетаUmicoКонтекстноеМеню</name>
+        <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
         <id>624</id>
         <visible>true</visible>
         <enabled>true</enabled>

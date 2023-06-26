@@ -10,7 +10,7 @@
     <value>Обмен с Umico</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>DataProcessor.UMC_ОбменСUmico.Form.ВводСчетаUmcio</defaultForm>
+  <defaultForm>DataProcessor.UMC_ОбменСUmico.Form.ВводКартыUmico</defaultForm>
   <attributes uuid="953ad8f6-15f5-475a-88b0-247029e8c4d1">
     <name>APIKey</name>
     <synonym>
@@ -67,12 +67,27 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <forms uuid="918625b5-dc6d-44a2-9cc0-d1dc7e4e6a72">
-    <name>ВводСчетаUmcio</name>
+    <name>ВводКартыUmico</name>
     <synonym>
       <key>ru</key>
-      <value>Ввод счета umcio</value>
+      <value>Ввод карты Umico</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="7645f1d1-fbc8-4107-865d-a2be4462c411">
+    <name>ОтправитьДокументВUmico</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить документ в Umico</value>
+    </synonym>
+    <group>CommandGroup.UMC_Umico</group>
+    <commandParameterType>
+      <types>DocumentRef.ВозвратТоваровОтКлиента</types>
+      <types>DocumentRef.ЧекККМ</types>
+      <types>DocumentRef.ЧекККМВозврат</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:DataProcessor>

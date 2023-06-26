@@ -640,10 +640,10 @@
       <value>Оплата баллами Umico</value>
     </synonym>
     <attributes uuid="59541d49-267d-4951-ab6e-0b1cfb7619b5">
-      <name>UMC_НомерСчетаUmico</name>
+      <name>UMC_НомерКартыUmico</name>
       <synonym>
         <key>ru</key>
-        <value>Номер счета Umico</value>
+        <value>Номер карты Umico</value>
       </synonym>
       <type>
         <types>String</types>

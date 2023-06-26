@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2783ddae-271d-4eb6-922d-eac7a669943a" extendedConfigurationObject="6c806002-279d-4494-b25f-28fe494fd1c3">
+  <producedTypes>
+    <refType typeId="ab967fc3-c948-4b7e-b005-5c36de964988" valueTypeId="2b023e34-764f-4629-85be-86a59a0d0277"/>
+    <listType typeId="dd77769c-531d-4a71-a936-c72afd768f9a" valueTypeId="9aa39ba8-d369-4545-babc-7fddf1f1ea9b"/>
+    <managerType typeId="4700252d-7fa1-4970-8dbf-98570bd07aa0" valueTypeId="66bb5aa8-8cc6-444d-908e-bbde927bd807"/>
+  </producedTypes>
+  <name>СпособыКомпенсацииВозвратовТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="cbdd8fcf-4433-4d4c-9e2a-b902d57bc12a" extendedConfigurationObject="90e43115-b99a-4223-b381-649b6f1e34fa">
+    <name>ВернутьДенежныеСредства</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="23e35149-5657-4015-9726-47a29fab1e23" extendedConfigurationObject="d4d74101-133f-467f-8b69-461a24368b2f">
+    <name>ОставитьВКачествеАванса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

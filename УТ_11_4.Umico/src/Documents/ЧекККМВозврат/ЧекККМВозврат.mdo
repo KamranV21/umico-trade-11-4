@@ -25,10 +25,10 @@
     </type>
   </attributes>
   <attributes uuid="40ace96f-7709-41e1-aeac-0b93447f3d65">
-    <name>UMC_НомерСчетаUmico</name>
+    <name>UMC_НомерКартыUmico</name>
     <synonym>
       <key>ru</key>
-      <value>Номер счета Umico</value>
+      <value>Номер карты Umico</value>
     </synonym>
     <type>
       <types>String</types>

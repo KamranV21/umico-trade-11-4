@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="48d5e401-246f-49eb-8c5a-9e7f83aae26b" extendedConfigurationObject="b54f4499-0383-487b-b3e5-919b6ff47261">
+  <name>ИспользоватьИмпортныеТовары</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:FunctionalOptionExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <location>Checked</location>
+  </extension>
+  <location>Constant.ИспользоватьИмпортныеТовары</location>
+</mdclass:FunctionalOption>

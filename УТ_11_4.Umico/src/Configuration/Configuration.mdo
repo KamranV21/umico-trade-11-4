@@ -48,17 +48,24 @@
     </extension>
     <languageCode>ru</languageCode>
   </languages>
-  <subsystems>Subsystem.UMC_Umcio</subsystems>
+  <subsystems>Subsystem.UMC_Umico</subsystems>
   <styleItems>StyleItem.ИндивидуальнаяЦена</styleItems>
   <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
+  <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
+  <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
+  <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.КрасныйКрест</commonPictures>
+  <commonPictures>CommonPicture.ЛоготипОсновнойСервисДоставки</commonPictures>
   <commonPictures>CommonPicture.Набор</commonPictures>
   <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.НаписатьSMS</commonPictures>
+  <commonPictures>CommonPicture.ОтгрузкаЗапрещена</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
+  <commonPictures>CommonPicture.ПревышениеЗаказа</commonPictures>
   <commonPictures>CommonPicture.РМК_Стереть</commonPictures>
   <commonPictures>CommonPicture.РМК_ТочкаКалькулятора</commonPictures>
   <commonPictures>CommonPicture.РМК_Цифра0</commonPictures>
@@ -73,40 +80,62 @@
   <commonPictures>CommonPicture.РМК_Цифра9</commonPictures>
   <commonPictures>CommonPicture.СерииНоменклатурыКолонкаСтатусов</commonPictures>
   <commonPictures>CommonPicture.СообщениеВТехПоддержку</commonPictures>
+  <commonPictures>CommonPicture.СостоянияСтрок</commonPictures>
   <commonPictures>CommonPicture.СтатусыУказанияСерий</commonPictures>
+  <commonPictures>CommonPicture.Успешно32</commonPictures>
   <roles>Role.UMC_ОсновнаяРоль</roles>
   <commonModules>CommonModule.UMC_ОбменСUmico</commonModules>
   <commonModules>CommonModule.UMC_ОбменСUmicoВызовСервера</commonModules>
   <commonModules>CommonModule.РозничныеПродажи</commonModules>
+  <functionalOptions>FunctionalOption.ИспользоватьЗаказыКлиентов</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьИмпортныеТовары</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
   <definedTypes>DefinedType.Артикул</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаЛюбогоЗнака</definedTypes>
   <definedTypes>DefinedType.ДенежнаяСуммаНеотрицательная</definedTypes>
+  <commandGroups>CommandGroup.UMC_Umico</commandGroups>
+  <constants>Constant.ИспользоватьЗаказыКлиентов</constants>
+  <constants>Constant.ИспользоватьИмпортныеТовары</constants>
   <constants>Constant.ИспользоватьНаборы</constants>
-  <catalogs>Catalog.UMC_ЖурналЗапросовКUmcio</catalogs>
-  <catalogs>Catalog.UMC_ПараметрыПодключенияКUmcio</catalogs>
+  <catalogs>Catalog.UMC_ЖурналЗапросовКUmico</catalogs>
+  <catalogs>Catalog.UMC_ПараметрыПодключенияКUmico</catalogs>
   <catalogs>Catalog.БонусныеПрограммыЛояльности</catalogs>
   <catalogs>Catalog.Валюты</catalogs>
   <catalogs>Catalog.ВидыНоменклатуры</catalogs>
   <catalogs>Catalog.ВидыЦен</catalogs>
+  <catalogs>Catalog.ГруппыФинансовогоУчетаРасчетов</catalogs>
+  <catalogs>Catalog.ДоговорыКонтрагентов</catalogs>
+  <catalogs>Catalog.ЗоныДоставки</catalogs>
   <catalogs>Catalog.КартыЛояльности</catalogs>
   <catalogs>Catalog.КассыККМ</catalogs>
   <catalogs>Catalog.КлассификаторАлкогольнойПродукцииЕГАИС</catalogs>
+  <catalogs>Catalog.КлассификаторТНВЭД</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Назначения</catalogs>
+  <catalogs>Catalog.НаправленияДеятельности</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.НомераГТД</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.ОтветственныеЛицаОрганизаций</catalogs>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.ПодарочныеСертификаты</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.СделкиСКлиентами</catalogs>
   <catalogs>Catalog.СерииНоменклатуры</catalogs>
+  <catalogs>Catalog.СкидкиНаценки</catalogs>
   <catalogs>Catalog.СкладскиеПомещения</catalogs>
   <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СоглашенияСКлиентами</catalogs>
   <catalogs>Catalog.Справки2ЕГАИС</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
   <catalogs>Catalog.СтруктураПредприятия</catalogs>
   <catalogs>Catalog.УпаковкиЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.ХарактеристикиНоменклатуры</catalogs>
   <catalogs>Catalog.ШтрихкодыУпаковокТоваров</catalogs>
   <catalogs>Catalog.ЭквайринговыеТерминалы</catalogs>
   <documents>Document.ВозвратТоваровОтКлиента</documents>
+  <documents>Document.ЗаявкаНаВозвратТоваровОтКлиента</documents>
   <documents>Document.КассоваяСмена</documents>
   <documents>Document.ОтчетОРозничныхПродажах</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
@@ -114,13 +143,21 @@
   <documents>Document.ЧекККМ</documents>
   <documents>Document.ЧекККМВозврат</documents>
   <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
+  <enums>Enum.ВариантыОформленияПродажи</enums>
+  <enums>Enum.ПорядокОплатыПоСоглашениям</enums>
+  <enums>Enum.СпособыДоставки</enums>
+  <enums>Enum.СпособыКомпенсацииВозвратовТоваров</enums>
   <enums>Enum.СтавкиНДС</enums>
+  <enums>Enum.СтатусыДействияВидовЦен</enums>
+  <enums>Enum.СтатусыРеализацийТоваровУслуг</enums>
   <enums>Enum.СтатусыЧековККМ</enums>
   <enums>Enum.ТипыКассККМ</enums>
   <enums>Enum.ТипыНалогообложенияНДС</enums>
   <enums>Enum.ТипыНоменклатуры</enums>
   <enums>Enum.ФормыОплаты</enums>
+  <enums>Enum.ХозяйственныеОперации</enums>
   <dataProcessors>DataProcessor.UMC_ОбменСUmico</dataProcessors>
+  <dataProcessors>DataProcessor.ПомощникЗачетаОплат</dataProcessors>
   <informationRegisters>InformationRegister.UMC_ИдентификаторыЧековUmico</informationRegisters>
   <informationRegisters>InformationRegister.UMC_НомераСтрокЧековUmico</informationRegisters>
 </mdclass:Configuration>

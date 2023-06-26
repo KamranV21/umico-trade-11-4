@@ -67,4 +67,15 @@
       <types>CatalogRef.ВидыНоменклатуры</types>
     </type>
   </attributes>
+  <attributes uuid="86f57ed4-797c-48a9-a20e-3acf2e894b57" extendedConfigurationObject="13dd1676-d9c6-415f-a4e1-cb9414a09577">
+    <name>ЕдиницаИзмеренияТНВЭД</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <type>Checked</type>
+    </extension>
+    <type>
+      <types>CatalogRef.УпаковкиЕдиницыИзмерения</types>
+    </type>
+  </attributes>
 </mdclass:Catalog>

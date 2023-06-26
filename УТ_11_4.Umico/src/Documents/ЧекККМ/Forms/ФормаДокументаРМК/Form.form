@@ -201,7 +201,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.ВвестиСчетUmico</commandName>
+      <commandName>Form.Command.ВвестиКартуUmico</commandName>
       <representation>Auto</representation>
       <width>12</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -657,7 +657,7 @@
     <name>UMC_ИнформацияUmico</name>
     <id>2274</id>
     <items xsi:type="form:FormField">
-      <name>UMC_НомерСчетаUmico</name>
+      <name>UMC_НомерКартыUmico</name>
       <id>2276</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -665,10 +665,10 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Объект.UMC_НомерСчетаUmico</segments>
+        <segments>Объект.UMC_НомерКартыUmico</segments>
       </dataPath>
       <extendedTooltip>
-        <name>UMC_НомерСчетаUmicoРасширеннаяПодсказка</name>
+        <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
         <id>2278</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -683,7 +683,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>UMC_НомерСчетаUmicoКонтекстноеМеню</name>
+        <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
         <id>2277</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -707,7 +707,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>UMC_ОчиститьСчетUmico</name>
+      <name>UMC_ОчиститьКартуUmico</name>
       <id>2279</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -715,7 +715,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>UMC_ОчиститьСчетUmicoРасширеннаяПодсказка</name>
+        <name>UMC_ОчиститьКартуUmicoРасширеннаяПодсказка</name>
         <id>2280</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -730,7 +730,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.UMC_ОчиститьСчетUmico</commandName>
+      <commandName>Form.Command.UMC_ОчиститьКартуUmico</commandName>
       <representation>Auto</representation>
       <width>5</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -5017,10 +5017,10 @@
     </additionalColumns>
   </attributes>
   <formCommands>
-    <name>ВвестиСчетUmico</name>
+    <name>ВвестиКартуUmico</name>
     <title>
       <key>ru</key>
-      <value>Umico</value>
+      <value>Карта Umico</value>
     </title>
     <id>1000000</id>
     <use>
@@ -5039,21 +5039,22 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>UMC_ОчиститьСчетUmico</name>
+    <name>UMC_ОчиститьКартуUmico</name>
     <title>
       <key>ru</key>
-      <value>Очистить счет Umico</value>
+      <value>Очистить карту Umico</value>
     </title>
     <id>1000001</id>
     <use>
       <common>true</common>
     </use>
+    <shortcut>Ctrl+S</shortcut>
     <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.AppearanceCross</picture>
+      <picture>CommonPicture.КрасныйКрест</picture>
     </picture>
     <action xsi:type="form:FormExtensionCommandHandlerContainer">
       <handlers>
-        <name>UMC_UMC_ОчиститьСчетUmicoПосле</name>
+        <name>UMC_UMC_ОчиститьКартуUmicoПосле</name>
         <callType>After</callType>
       </handlers>
     </action>

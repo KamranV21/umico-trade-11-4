@@ -4821,7 +4821,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
-          <name>UMC_ОплатаБалламиUmicoUMC_НомерСчетаUmico</name>
+          <name>UMC_ОплатаБалламиUmicoUMC_НомерКартыUmico</name>
           <id>521</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4829,10 +4829,10 @@
             <common>true</common>
           </userVisible>
           <dataPath xsi:type="form:DataPath">
-            <segments>Объект.UMC_ОплатаБалламиUmico.UMC_НомерСчетаUmico</segments>
+            <segments>Объект.UMC_ОплатаБалламиUmico.UMC_НомерКартыUmico</segments>
           </dataPath>
           <extendedTooltip>
-            <name>UMC_ОплатаБалламиUmicoUMC_НомерСчетаUmicoРасширеннаяПодсказка</name>
+            <name>UMC_ОплатаБалламиUmicoUMC_НомерКартыUmicoРасширеннаяПодсказка</name>
             <id>523</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4847,7 +4847,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>UMC_ОплатаБалламиUmicoUMC_НомерСчетаUmicoКонтекстноеМеню</name>
+            <name>UMC_ОплатаБалламиUmicoUMC_НомерКартыUmicoКонтекстноеМеню</name>
             <id>522</id>
             <visible>true</visible>
             <enabled>true</enabled>

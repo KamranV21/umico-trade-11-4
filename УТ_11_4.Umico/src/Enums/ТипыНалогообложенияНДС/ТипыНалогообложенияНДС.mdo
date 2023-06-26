@@ -38,4 +38,11 @@
       <extendedConfigurationObject>Checked</extendedConfigurationObject>
     </extension>
   </enumValues>
+  <enumValues uuid="456b9c60-9b71-4876-a21f-b4864709385f" extendedConfigurationObject="9f70eac4-2b8c-4400-9fb7-f3d4230ad33e">
+    <name>ПродажаНаЭкспорт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
 </mdclass:Enum>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f8b2d37d-8ef6-4a59-b701-c0f930425258">
+  <producedTypes>
+    <objectType typeId="4739059b-3397-4a0d-a60c-034f5c61c2a4" valueTypeId="31650d8d-e911-4cb1-aa12-0ed62ece6eb4"/>
+    <refType typeId="74097a35-a7a5-48bf-9342-01044dab18d7" valueTypeId="f4ec3a61-f69d-4c97-a2b1-c32273241d25"/>
+    <selectionType typeId="30a67d5c-53af-4a54-b44a-2d81ddb9d9be" valueTypeId="51f12632-87d1-43d1-84fb-893ef53ee9b8"/>
+    <listType typeId="b4be6d46-94e5-48cd-b199-b43ac1fd558d" valueTypeId="d076a694-d3ca-4b6d-b367-9bb688e3107a"/>
+    <managerType typeId="aa3a2f44-ca2c-4fa5-bb0a-6c828bacc4a8" valueTypeId="ecf77b5b-fdec-4f56-8fb3-303685f095b2"/>
+  </producedTypes>
+  <name>UMC_ПараметрыПодключенияКUmico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры подключения к Umico</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.UMC_ПараметрыПодключенияКUmico.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Параметры подключения к Umico</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Параметры подключения к Umico</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.UMC_ПараметрыПодключенияКUmico.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.UMC_ПараметрыПодключенияКUmico.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5afe61dd-1b35-46e2-bde7-bf2e620aebcb">
+    <name>APIKey</name>
+    <synonym>
+      <key>ru</key>
+      <value>API key</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6316638d-b954-4ccf-a496-162c7fdce753">
+    <name>POSID</name>
+    <synonym>
+      <key>ru</key>
+      <value>POS ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9c1ca7f4-ab5d-4e11-95e1-9d85b69682f0">
+    <name>КассаККМ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса ККМ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КассыККМ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a515923-f942-4a8d-acb3-4d2b12c3d6f4">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3a61ddc8-5f06-4440-86f7-5cd5bf5b69da">
+    <name>ВариантИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант использования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.UMC_ВариантыИспользованияПодключенияКUmico</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="20158a1f-30e5-4b10-8cd8-251807fc45ec">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ced18722-4e9e-461a-9e1e-02ceaf5756eb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

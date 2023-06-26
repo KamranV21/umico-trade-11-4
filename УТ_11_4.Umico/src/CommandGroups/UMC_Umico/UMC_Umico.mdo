@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a1781bd-692a-4943-8ab2-48a339cc1cf1">
+  <name>UMC_Umico</name>
+  <synonym>
+    <key>ru</key>
+    <value>Umico</value>
+  </synonym>
+  <representation>Auto</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.UMC_РазделUmico</picture>
+  </picture>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>
