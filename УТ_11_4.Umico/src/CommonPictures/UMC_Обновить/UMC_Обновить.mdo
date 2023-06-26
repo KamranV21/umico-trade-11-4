@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d22fdb01-b5b2-4076-abd2-dfc23c8fd8f6">
+  <name>UMC_Обновить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить</value>
+  </synonym>
+</mdclass:CommonPicture>

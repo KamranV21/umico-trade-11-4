@@ -88,7 +88,10 @@
       <types>DocumentRef.ЧекККМВозврат</types>
       <types>DocumentRef.РеализацияТоваровУслуг</types>
     </commandParameterType>
-    <representation>Auto</representation>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.UMC_Отправить</picture>
+    </picture>
   </commands>
   <commands uuid="69ac86eb-f8a8-4d25-98f5-12917b2edf34">
     <name>ОтменитьПередачуЧекаВUmico</name>
@@ -103,13 +106,16 @@
       <types>DocumentRef.ЧекККМВозврат</types>
       <types>DocumentRef.РеализацияТоваровУслуг</types>
     </commandParameterType>
-    <representation>Auto</representation>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.UMC_Отменить</picture>
+    </picture>
   </commands>
   <commands uuid="5db2c58f-95bb-49d2-962e-7b203396d98a">
     <name>ОбновитьСтатусЧекаВUmico</name>
     <synonym>
       <key>ru</key>
-      <value>Получить статус чека</value>
+      <value>Обновить статус чека</value>
     </synonym>
     <group>CommandGroup.UMC_Umico</group>
     <commandParameterType>
@@ -118,6 +124,9 @@
       <types>DocumentRef.ЧекККМВозврат</types>
       <types>DocumentRef.РеализацияТоваровУслуг</types>
     </commandParameterType>
-    <representation>Auto</representation>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.UMC_Обновить</picture>
+    </picture>
   </commands>
 </mdclass:DataProcessor>

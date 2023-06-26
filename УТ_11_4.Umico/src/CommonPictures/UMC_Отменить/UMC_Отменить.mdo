@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f182caa-23f5-4018-abdf-404eb8cea7f1">
+  <name>UMC_Отменить</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отменить</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -53,6 +53,9 @@
   <styleItems>StyleItem.ИтогиФон</styleItems>
   <styleItems>StyleItem.ТекстИнформационнойНадписи</styleItems>
   <styleItems>StyleItem.ЦветФонаВыделения</styleItems>
+  <commonPictures>CommonPicture.UMC_Обновить</commonPictures>
+  <commonPictures>CommonPicture.UMC_Отменить</commonPictures>
+  <commonPictures>CommonPicture.UMC_Отправить</commonPictures>
   <commonPictures>CommonPicture.UMC_РазделUmico</commonPictures>
   <commonPictures>CommonPicture.ВниманиеКрасный</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьПоШаблону</commonPictures>
