@@ -5010,11 +5010,6 @@
         </edit>
       </columns>
     </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.СкидкиНаценки</segments>
-      </tablePath>
-    </additionalColumns>
   </attributes>
   <formCommands>
     <name>ВвестиКартуUmico</name>

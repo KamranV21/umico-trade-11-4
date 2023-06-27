@@ -5484,9 +5484,9 @@
     <name>UMC_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
-  <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
+  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

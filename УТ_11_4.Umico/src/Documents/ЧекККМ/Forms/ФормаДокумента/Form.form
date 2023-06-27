@@ -6124,22 +6124,22 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
-    <event>OnCreateAtServer</event>
-    <name>UMC_ПриСозданииНаСервереПосле</name>
-    <callType>After</callType>
-  </handlers>
-  <handlers xsi:type="form:EventHandlerExtension">
     <event>NotificationProcessing</event>
     <name>UMC_ОбработкаОповещенияПосле</name>
     <callType>After</callType>
   </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>OnCreateAtServer</event>
+    <name>UMC_ПриСозданииНаСервереПосле</name>
+    <callType>After</callType>
+  </handlers>
+  <excludedCommands>PostAndClose</excludedCommands>
+  <excludedCommands>Write</excludedCommands>
   <excludedCommands>Copy</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Post</excludedCommands>
-  <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>UndoPosting</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -6224,11 +6224,6 @@
         </edit>
         <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
       </columns>
-    </additionalColumns>
-    <additionalColumns>
-      <tablePath xsi:type="form:DataPath">
-        <segments>Объект.СкидкиНаценки</segments>
-      </tablePath>
     </additionalColumns>
   </attributes>
   <attributes>

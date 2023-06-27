@@ -143,9 +143,9 @@
   <documents>Document.ОтчетОРозничныхПродажах</documents>
   <documents>Document.РеализацияТоваровУслуг</documents>
   <documents>Document.РеализацияУслугПрочихАктивов</documents>
+  <documents>Document.СписаниеЗадолженности</documents>
   <documents>Document.ЧекККМ</documents>
   <documents>Document.ЧекККМВозврат</documents>
-  <documents>Document.СписаниеЗадолженности</documents>
   <enums>Enum.UMC_ВариантыИспользованияПодключенияКUmico</enums>
   <enums>Enum.ВариантыОформленияПродажи</enums>
   <enums>Enum.ПорядокОплатыПоСоглашениям</enums>

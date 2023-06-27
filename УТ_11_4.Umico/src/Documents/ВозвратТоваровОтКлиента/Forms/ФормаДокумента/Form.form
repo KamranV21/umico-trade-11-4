@@ -6434,6 +6434,37 @@
         </extInfo>
       </items>
       <items xsi:type="form:Button">
+        <name>UMC_РассчитатьСуммуОплатыБалламиUmico</name>
+        <id>743</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>UMC_РассчитатьСуммуОплатыБалламиUmicoРасширеннаяПодсказка</name>
+          <id>744</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.UMC_РассчитатьСуммуОплатыБалламиUmico</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
         <name>UMC_СписатьЗадолженностьПоUmico</name>
         <id>741</id>
         <visible>true</visible>
@@ -8313,9 +8344,9 @@
     <name>UMC_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
-  <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
+  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -8338,9 +8369,6 @@
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.ВидыЗапасов.ИдентификаторСтроки</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
@@ -8679,6 +8707,24 @@
     <action xsi:type="form:FormExtensionCommandHandlerContainer">
       <handlers>
         <name>UMC_UMC_СписатьЗадолженностьПоUmicoПосле</name>
+        <callType>After</callType>
+      </handlers>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>UMC_РассчитатьСуммуОплатыБалламиUmico</name>
+    <title>
+      <key>ru</key>
+      <value>Рассчитать сумму оплаты баллами Umico</value>
+    </title>
+    <id>1000001</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>UMC_UMC_РассчитатьСуммуОплатыБалламиUmicoПосле</name>
         <callType>After</callType>
       </handlers>
     </action>

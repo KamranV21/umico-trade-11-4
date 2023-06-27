@@ -15,9 +15,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>КОплате</segments>
-      </dataPath>
       <extendedTooltip>
         <name>КОплатеРасширеннаяПодсказка</name>
         <id>65</id>
@@ -71,9 +68,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПолученоНаличными</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ПолеПолученоНаличнымиРасширеннаяПодсказка</name>
@@ -131,9 +125,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ОплаченоПлатежнымиКартами</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ПолеОплаченоПлатежнымиКартамиРасширеннаяПодсказка</name>
@@ -186,9 +177,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ОплаченоСертификатами</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ПолеОплаченоСертификатамиРасширеннаяПодсказка</name>
@@ -241,9 +229,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ОплаченоБонуснымиБаллами</segments>
-      </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
         <name>ПолеОплаченоБонуснымиБалламиРасширеннаяПодсказка</name>
@@ -357,9 +342,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СуммаСдачи</segments>
-          </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
             <name>СуммаСдачиExtendedTooltip</name>
@@ -452,9 +434,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СуммаДоплаты</segments>
-          </dataPath>
           <titleLocation>Left</titleLocation>
           <extendedTooltip>
             <name>СуммаДоплатыРасширеннаяПодсказка</name>
@@ -638,7 +617,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда7ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -674,7 +653,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда4ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -710,7 +689,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда1ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -746,7 +725,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда0ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -818,7 +797,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда8ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -854,7 +833,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда5ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -890,7 +869,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда2ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -926,7 +905,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.КомандаТочка</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -998,7 +977,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда9ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1034,7 +1013,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда6ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1070,7 +1049,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда3ПраваяКлавиатура</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1106,7 +1085,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.КомандаСтереть</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1245,7 +1224,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда7</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1281,7 +1260,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда4</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1317,7 +1296,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда1</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1353,7 +1332,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда0</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1425,7 +1404,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда8</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1461,7 +1440,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда5</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1497,7 +1476,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда2</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1533,7 +1512,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.КомандаТочка</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1605,7 +1584,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда9</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1641,7 +1620,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда6</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1677,7 +1656,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.Команда3</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1713,7 +1692,7 @@
                 </extInfo>
               </extendedTooltip>
               <type>UsualButton</type>
-              <commandName>Form.Command.КомандаСтереть</commandName>
+              <commandName>0</commandName>
               <representation>Picture</representation>
               <maxWidth>10</maxWidth>
               <height>3</height>
@@ -1851,7 +1830,7 @@
             </extInfo>
           </extendedTooltip>
           <type>UsualButton</type>
-          <commandName>Form.StandardCommand.Close</commandName>
+          <commandName>0</commandName>
           <representation>Auto</representation>
           <maxWidth>32</maxWidth>
           <height>15</height>
@@ -1947,7 +1926,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.ЗакрытьФорму</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>10</maxWidth>
         <height>3</height>
@@ -1982,7 +1961,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.КомандаПробитьЧек</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <defaultButton>true</defaultButton>
         <maxWidth>10</maxWidth>
@@ -2060,7 +2039,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.ОплатитьПлатежнойКартой</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>20</maxWidth>
         <height>3</height>
@@ -2094,7 +2073,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.ОплатитьПодарочнымСертификатом</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>20</maxWidth>
         <height>3</height>
@@ -2128,7 +2107,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.ОплатитьБонуснымиБаллами</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>20</maxWidth>
         <height>3</height>
@@ -2162,7 +2141,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.КомандаСторно</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>20</maxWidth>
         <height>3</height>
@@ -2301,7 +2280,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.КомандаОтправитьSMS</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>21</maxWidth>
         <height>3</height>
@@ -2336,7 +2315,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.КомандаОтправитьEmail</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>21</maxWidth>
         <height>3</height>
@@ -2370,7 +2349,7 @@
           </extInfo>
         </extendedTooltip>
         <type>UsualButton</type>
-        <commandName>Form.Command.КомандаОтправкаНеТребуется</commandName>
+        <commandName>0</commandName>
         <representation>Auto</representation>
         <maxWidth>21</maxWidth>
         <height>3</height>
@@ -2459,11 +2438,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.НаписатьSMS</picture>
-            </picture>
-          </extInfo>
+          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
           <name>Телефон</name>
@@ -2473,9 +2448,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Телефон</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>ТелефонРасширеннаяПодсказка</name>
@@ -2596,11 +2568,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.СообщениеВТехПоддержку</picture>
-            </picture>
-          </extInfo>
+          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
           <name>Email</name>
@@ -2610,9 +2578,6 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Email</segments>
-          </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
             <name>EmailРасширеннаяПодсказка</name>
