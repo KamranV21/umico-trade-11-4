@@ -2438,7 +2438,11 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.НаписатьSMS</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>Телефон</name>
@@ -2568,7 +2572,11 @@
           <autoMaxWidth>true</autoMaxWidth>
           <height>1</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+          <extInfo xsi:type="form:PictureDecorationExtInfo">
+            <picture xsi:type="core:PictureRef">
+              <picture>CommonPicture.СообщениеВТехПоддержку</picture>
+            </picture>
+          </extInfo>
         </items>
         <items xsi:type="form:FormField">
           <name>Email</name>
