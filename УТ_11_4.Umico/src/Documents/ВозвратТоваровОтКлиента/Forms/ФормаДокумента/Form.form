@@ -6219,7 +6219,7 @@
       <id>727</id>
       <items xsi:type="form:FormField">
         <name>UMC_СтатусПередачиВUmico</name>
-        <id>738</id>
+        <id>729</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6231,7 +6231,7 @@
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>UMC_СтатусПередачиВUmicoРасширеннаяПодсказка</name>
-          <id>740</id>
+          <id>731</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6246,7 +6246,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_СтатусПередачиВUmicoКонтекстноеМеню</name>
-          <id>739</id>
+          <id>730</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6273,11 +6273,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_ОснованиеВозвратаUmico</name>
-        <id>735</id>
-        <title>
-          <key>ru</key>
-          <value>Основание возврата</value>
-        </title>
+        <id>742</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6293,7 +6289,7 @@
         </handlers>
         <extendedTooltip>
           <name>UMC_ОснованиеВозвратаUmicoРасширеннаяПодсказка</name>
-          <id>737</id>
+          <id>744</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6308,7 +6304,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_ОснованиеВозвратаUmicoКонтекстноеМеню</name>
-          <id>736</id>
+          <id>743</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6332,7 +6328,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_НомерКартыUmico</name>
-        <id>729</id>
+        <id>732</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6343,7 +6339,7 @@
         </dataPath>
         <extendedTooltip>
           <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
-          <id>731</id>
+          <id>734</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6358,7 +6354,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
-          <id>730</id>
+          <id>733</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6383,7 +6379,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_ОплаченноБалламиUmico</name>
-        <id>732</id>
+        <id>735</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6394,7 +6390,7 @@
         </dataPath>
         <extendedTooltip>
           <name>UMC_ОплаченноБалламиUmicoРасширеннаяПодсказка</name>
-          <id>734</id>
+          <id>737</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6409,7 +6405,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_ОплаченноБалламиUmicoКонтекстноеМеню</name>
-          <id>733</id>
+          <id>736</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6435,7 +6431,7 @@
       </items>
       <items xsi:type="form:Button">
         <name>UMC_РассчитатьСуммуОплатыБалламиUmico</name>
-        <id>743</id>
+        <id>738</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6443,7 +6439,7 @@
         </userVisible>
         <extendedTooltip>
           <name>UMC_РассчитатьСуммуОплатыБалламиUmicoРасширеннаяПодсказка</name>
-          <id>744</id>
+          <id>739</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6466,7 +6462,7 @@
       </items>
       <items xsi:type="form:Button">
         <name>UMC_СписатьЗадолженностьПоUmico</name>
-        <id>741</id>
+        <id>740</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6474,7 +6470,7 @@
         </userVisible>
         <extendedTooltip>
           <name>UMC_СписатьЗадолженностьПоUmicoРасширеннаяПодсказка</name>
-          <id>742</id>
+          <id>741</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -8335,18 +8331,18 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
-    <event>NotificationProcessing</event>
-    <name>UMC_ОбработкаОповещенияПосле</name>
-    <callType>After</callType>
-  </handlers>
-  <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
     <name>UMC_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>NotificationProcessing</event>
+    <name>UMC_ОбработкаОповещенияПосле</name>
+    <callType>After</callType>
+  </handlers>
+  <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
-  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -8369,6 +8365,9 @@
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.ВидыЗапасов.ИдентификаторСтроки</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
@@ -8698,7 +8697,7 @@
     <name>UMC_СписатьЗадолженностьПоUmico</name>
     <title>
       <key>ru</key>
-      <value>Списать задолженность за счет баллов</value>
+      <value>Спиисать задолженность по Umico</value>
     </title>
     <id>1000000</id>
     <use>

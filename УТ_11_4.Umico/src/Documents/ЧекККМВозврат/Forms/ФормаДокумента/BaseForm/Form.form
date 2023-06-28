@@ -5284,9 +5284,6 @@
   <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
-  <excludedCommands>Post</excludedCommands>
-  <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

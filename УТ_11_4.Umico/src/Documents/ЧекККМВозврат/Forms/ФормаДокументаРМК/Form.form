@@ -454,10 +454,10 @@
   </items>
   <items xsi:type="form:FormGroup">
     <name>UMC_ИнформацияUmico</name>
-    <id>621</id>
+    <id>614</id>
     <items xsi:type="form:FormField">
       <name>UMC_НомерКартыUmico</name>
-      <id>623</id>
+      <id>616</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -468,7 +468,7 @@
       </dataPath>
       <extendedTooltip>
         <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
-        <id>625</id>
+        <id>618</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -483,7 +483,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
-        <id>624</id>
+        <id>617</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -513,7 +513,7 @@
     <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
       <name>UMC_ИнформацияUmicoРасширеннаяПодсказка</name>
-      <id>622</id>
+      <id>615</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1222,10 +1222,10 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаСуммаUmico</name>
-        <id>628</id>
+        <id>619</id>
         <items xsi:type="form:FormField">
           <name>СуммаКВозвратуUmico</name>
-          <id>630</id>
+          <id>621</id>
           <title>
             <key>ru</key>
             <value>Umico</value>
@@ -1240,7 +1240,7 @@
           </dataPath>
           <extendedTooltip>
             <name>СуммаКВозвратуUmicoРасширеннаяПодсказка</name>
-            <id>632</id>
+            <id>623</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1255,7 +1255,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>СуммаКВозвратуUmicoКонтекстноеМеню</name>
-            <id>631</id>
+            <id>622</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1288,10 +1288,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <height>2</height>
         <extendedTooltip>
           <name>ГруппаСуммаUmicoРасширеннаяПодсказка</name>
-          <id>629</id>
+          <id>620</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1307,7 +1306,7 @@
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
           <group>HorizontalIfPossible</group>
-          <verticalAlign>Center</verticalAlign>
+          <representation>WeakSeparation</representation>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -4450,7 +4449,7 @@
     <name>ИнформационнаяПанельСуммаКВозвратуUmico</name>
     <title>
       <key>ru</key>
-      <value>Информационная панель сумма к возврату umico</value>
+      <value>Информационная панель сумма к возврату Umico</value>
     </title>
     <id>1000002</id>
     <valueType>

@@ -5053,7 +5053,7 @@
       <id>437</id>
       <items xsi:type="form:FormField">
         <name>UMC_СтатусПередачиВUmico</name>
-        <id>445</id>
+        <id>439</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5065,7 +5065,7 @@
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>UMC_СтатусПередачиВUmicoРасширеннаяПодсказка</name>
-          <id>447</id>
+          <id>441</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5080,7 +5080,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_СтатусПередачиВUmicoКонтекстноеМеню</name>
-          <id>446</id>
+          <id>440</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5107,7 +5107,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_НомерКартыUmico</name>
-        <id>439</id>
+        <id>442</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5118,7 +5118,7 @@
         </dataPath>
         <extendedTooltip>
           <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
-          <id>441</id>
+          <id>444</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5133,7 +5133,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
-          <id>440</id>
+          <id>443</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5158,7 +5158,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_ОплаченноБалламиUmico</name>
-        <id>442</id>
+        <id>445</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5169,7 +5169,7 @@
         </dataPath>
         <extendedTooltip>
           <name>UMC_ОплаченноБалламиUmicoРасширеннаяПодсказка</name>
-          <id>444</id>
+          <id>447</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -5184,7 +5184,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_ОплаченноБалламиUmicoКонтекстноеМеню</name>
-          <id>443</id>
+          <id>446</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6124,22 +6124,22 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
-    <event>NotificationProcessing</event>
-    <name>UMC_ОбработкаОповещенияПосле</name>
-    <callType>After</callType>
-  </handlers>
-  <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
     <name>UMC_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
-  <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>NotificationProcessing</event>
+    <name>UMC_ОбработкаОповещенияПосле</name>
+    <callType>After</callType>
+  </handlers>
   <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Post</excludedCommands>
+  <excludedCommands>PostAndClose</excludedCommands>
+  <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>UndoPosting</excludedCommands>
+  <excludedCommands>Write</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -6224,6 +6224,11 @@
         </edit>
         <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
       </columns>
+    </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.СкидкиНаценки</segments>
+      </tablePath>
     </additionalColumns>
   </attributes>
   <attributes>

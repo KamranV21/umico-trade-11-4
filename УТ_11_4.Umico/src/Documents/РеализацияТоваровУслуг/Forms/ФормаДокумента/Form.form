@@ -9634,7 +9634,7 @@
       <id>1461</id>
       <items xsi:type="form:FormField">
         <name>UMC_СтатусПередачиВUmico</name>
-        <id>1469</id>
+        <id>1463</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -9646,7 +9646,7 @@
         <titleLocation>None</titleLocation>
         <extendedTooltip>
           <name>UMC_СтатусПередачиВUmicoРасширеннаяПодсказка</name>
-          <id>1471</id>
+          <id>1465</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9661,7 +9661,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_СтатусПередачиВUmicoКонтекстноеМеню</name>
-          <id>1470</id>
+          <id>1464</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9688,7 +9688,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_НомерКартыUmico</name>
-        <id>1463</id>
+        <id>1469</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -9699,7 +9699,7 @@
         </dataPath>
         <extendedTooltip>
           <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
-          <id>1465</id>
+          <id>1471</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9714,7 +9714,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
-          <id>1464</id>
+          <id>1470</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9738,7 +9738,7 @@
       </items>
       <items xsi:type="form:FormField">
         <name>UMC_ОплаченноБалламиUmico</name>
-        <id>1466</id>
+        <id>1472</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -9749,7 +9749,7 @@
         </dataPath>
         <extendedTooltip>
           <name>UMC_ОплаченноБалламиUmicoРасширеннаяПодсказка</name>
-          <id>1468</id>
+          <id>1474</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9764,7 +9764,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>UMC_ОплаченноБалламиUmicoКонтекстноеМеню</name>
-          <id>1467</id>
+          <id>1473</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9789,7 +9789,7 @@
       </items>
       <items xsi:type="form:Button">
         <name>UMC_СписатьЗадолженностьПоUmico</name>
-        <id>1472</id>
+        <id>1477</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -9797,7 +9797,7 @@
         </userVisible>
         <extendedTooltip>
           <name>UMC_СписатьЗадолженностьПоUmicoРасширеннаяПодсказка</name>
-          <id>1473</id>
+          <id>1478</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -11300,18 +11300,18 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
-    <event>NotificationProcessing</event>
-    <name>UMC_ОбработкаОповещенияПосле</name>
-    <callType>After</callType>
-  </handlers>
-  <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
     <name>UMC_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
+  <handlers xsi:type="form:EventHandlerExtension">
+    <event>NotificationProcessing</event>
+    <name>UMC_ОбработкаОповещенияПосле</name>
+    <callType>After</callType>
+  </handlers>
+  <excludedCommands>Post</excludedCommands>
   <excludedCommands>PostAndClose</excludedCommands>
   <excludedCommands>Write</excludedCommands>
-  <excludedCommands>Post</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -11334,6 +11334,9 @@
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект.ВидыЗапасов.ИдентификаторСтроки</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>
@@ -11650,7 +11653,7 @@
     <name>UMC_СписатьЗадолженностьПоUmico</name>
     <title>
       <key>ru</key>
-      <value>Списать задолженность за счет баллов</value>
+      <value>Спиисать задолженность по Umico</value>
     </title>
     <id>1000000</id>
     <use>

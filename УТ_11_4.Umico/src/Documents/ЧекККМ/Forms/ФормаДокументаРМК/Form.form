@@ -178,7 +178,7 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>ВвестиКартуUmico</name>
+      <name>UMC_ВвестиКартуUmico</name>
       <id>2272</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -186,7 +186,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВвестиКартуUmicoРасширеннаяПодсказка</name>
+        <name>UMC_ВвестиКартуUmicoРасширеннаяПодсказка</name>
         <id>2273</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -201,7 +201,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.Command.ВвестиКартуUmico</commandName>
+      <commandName>Form.Command.UMC_ВвестиКартуUmico</commandName>
       <representation>Auto</representation>
       <width>12</width>
       <autoMaxWidth>true</autoMaxWidth>
@@ -658,7 +658,7 @@
     <id>2274</id>
     <items xsi:type="form:FormField">
       <name>UMC_НомерКартыUmico</name>
-      <id>2276</id>
+      <id>2278</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -669,7 +669,7 @@
       </dataPath>
       <extendedTooltip>
         <name>UMC_НомерКартыUmicoРасширеннаяПодсказка</name>
-        <id>2278</id>
+        <id>2280</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -684,7 +684,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>UMC_НомерКартыUmicoКонтекстноеМеню</name>
-        <id>2277</id>
+        <id>2279</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -708,7 +708,7 @@
     </items>
     <items xsi:type="form:Button">
       <name>UMC_ОчиститьКартуUmico</name>
-      <id>2279</id>
+      <id>2276</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -716,7 +716,7 @@
       </userVisible>
       <extendedTooltip>
         <name>UMC_ОчиститьКартуUmicoРасширеннаяПодсказка</name>
-        <id>2280</id>
+        <id>2277</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -5010,42 +5010,24 @@
         </edit>
       </columns>
     </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.СкидкиНаценки</segments>
+      </tablePath>
+    </additionalColumns>
   </attributes>
-  <formCommands>
-    <name>ВвестиКартуUmico</name>
-    <title>
-      <key>ru</key>
-      <value>Карта Umico</value>
-    </title>
-    <id>1000000</id>
-    <use>
-      <common>true</common>
-    </use>
-    <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.UMC_РазделUmico</picture>
-    </picture>
-    <action xsi:type="form:FormExtensionCommandHandlerContainer">
-      <handlers>
-        <name>UMC_ВвестиКартуUmicoПосле</name>
-        <callType>After</callType>
-      </handlers>
-    </action>
-    <representation>TextPicture</representation>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <formCommands>
     <name>UMC_ОчиститьКартуUmico</name>
     <title>
       <key>ru</key>
       <value>Очистить карту Umico</value>
     </title>
-    <id>1000001</id>
+    <id>1000000</id>
     <use>
       <common>true</common>
     </use>
-    <shortcut>Ctrl+S</shortcut>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.КрасныйКрест</picture>
+      <picture>CommonPicture.UMC_Отменить</picture>
     </picture>
     <action xsi:type="form:FormExtensionCommandHandlerContainer">
       <handlers>
@@ -5054,6 +5036,28 @@
       </handlers>
     </action>
     <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>UMC_ВвестиКартуUmico</name>
+    <title>
+      <key>ru</key>
+      <value>Карта Umico</value>
+    </title>
+    <id>1000001</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.UMC_РазделUmico</picture>
+    </picture>
+    <action xsi:type="form:FormExtensionCommandHandlerContainer">
+      <handlers>
+        <name>UMC_UMC_ВвестиКартуUmicoПосле</name>
+        <callType>After</callType>
+      </handlers>
+    </action>
+    <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

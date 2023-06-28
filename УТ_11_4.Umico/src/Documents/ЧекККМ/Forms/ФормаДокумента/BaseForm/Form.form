@@ -5937,13 +5937,6 @@
   <excludedCommands>SetDeletionMark</excludedCommands>
   <excludedCommands>UndoPosting</excludedCommands>
   <excludedCommands>Write</excludedCommands>
-  <excludedCommands>Copy</excludedCommands>
-  <excludedCommands>Delete</excludedCommands>
-  <excludedCommands>Post</excludedCommands>
-  <excludedCommands>PostAndClose</excludedCommands>
-  <excludedCommands>SetDeletionMark</excludedCommands>
-  <excludedCommands>UndoPosting</excludedCommands>
-  <excludedCommands>Write</excludedCommands>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -6028,6 +6021,11 @@
         </edit>
         <functionalOptions>FunctionalOption.ИспользоватьНаборы</functionalOptions>
       </columns>
+    </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>Объект.СкидкиНаценки</segments>
+      </tablePath>
     </additionalColumns>
   </attributes>
   <commandInterface>
